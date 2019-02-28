@@ -1,1 +1,1 @@
-select * from ${hiveconf:table_name}
+select * from ${hiveconf:i_table_name}
