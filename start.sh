@@ -9,7 +9,7 @@ fi
 
 . propertyFile
 
-beeline -u "${beeline_url}" -f hql/select_table.hql
+beeline -u "${beeline_url}/${db_name}" -f hql/select_table.hql –hivevar table_name=${table_name}
 
 hadoop fs -ls /tmp/test/$env/
 
