@@ -13,5 +13,5 @@ beeline -u "${beeline_url}/${db_name}" --hivevar table_name=${table_name} -f hql
 
 hadoop fs -ls /tmp/test/$env/
 
-echo "test"
-echo "Completed"
+echo "test1"
+echo "Completed1"
